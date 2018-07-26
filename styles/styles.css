@@ -1,0 +1,35 @@
+h1 {
+	text-align: center;
+}
+
+.container {
+	padding: 0 5%;
+}
+
+h1, h2 {
+	font-weight: 400;
+}
+
+body {
+	font-size: 18px;
+}
+
+section {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#navbar ul {
+	list-style: none;
+	padding: 0 5%;
+}
+
+#navbar li {
+	margin: 0;
+	padding: 10px 0;
+	border: 1px solid black;
+}
+
+#navbar li a {
+	display: block;
+}
