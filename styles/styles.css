@@ -12,6 +12,7 @@ h1, h2 {
 
 body {
 	font-size: 18px;
+	margin: 0;
 }
 
 section {
@@ -21,15 +22,21 @@ section {
 
 #navbar ul {
 	list-style: none;
-	padding: 0 5%;
+	padding: 0;
+	border-top: 1px solid black;
+	border-bottom: 2px solid black;
+	height: 210px;
+	overflow-y: scroll;
 }
 
 #navbar li {
 	margin: 0;
-	padding: 10px 0;
-	border: 1px solid black;
+	padding: 10px 0 10px 5%;
+	border-top: 1px solid black;
 }
 
 #navbar li a {
 	display: block;
+	text-decoration: none;
+	color: black;
 }
