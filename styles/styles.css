@@ -74,12 +74,15 @@ p {
 
 code {
   background-color: #F7F7F7;
-}
-
-.code-block {
   font-size: 14px;
   padding: 15px;
+  display: block;
+  text-align: left;
+  white-space: pre;
+  word-break: normal;
+  word-wrap: normal;
 }
+
 
 @media (min-width: 768px) {
 	body {
