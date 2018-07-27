@@ -1,5 +1,14 @@
+html, body {
+	height: 100%;
+}
+
 h1 {
 	text-align: center;
+	font-size: 26px;
+}
+
+h2 {
+  font-size: 24px;	
 }
 
 .container {
@@ -39,4 +48,36 @@ section {
 	display: block;
 	text-decoration: none;
 	color: black;
+}
+
+@media (min-width: 768px) {
+	body {
+		display: flex;
+	}
+	
+	header {
+		flex-shrink: 0;
+	}
+	
+	#navbar ul {
+		height: inherit;
+		overflow-y: inherit;
+		border: 0;
+	}
+	
+	#navbar li {
+    margin: 0;
+    padding: 10px 5% 10px 10%;
+	}
+	
+	#main-header {
+		border-right: solid 2px black;
+		width: 280px;
+	}
+	
+	h1 {
+		text-align: left;
+		margin: 10px 0;
+		padding: 0 5% 0 10%;
+	}
 }
