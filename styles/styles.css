@@ -50,6 +50,19 @@ section {
 	color: black;
 }
 
+p {
+	margin-left: 10px;
+}
+
+.main-section ul {
+	list-style-position: inside;
+	margin: 0;
+}
+
+.main-section li {
+	padding-top: 10px;
+}
+
 @media (min-width: 768px) {
 	body {
 		display: flex;
